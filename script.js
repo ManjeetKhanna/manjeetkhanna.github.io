@@ -116,7 +116,7 @@ function waitAndResponce(inputText) {
                 "• Revamped web pages with JavaScript and Drupal; built an automation system using Python, Plotly, and Excel, reducing manual tasks for faculty by 40%.<br>" +
                 "• Provided tech support for 200+ workstations, enhancing IT inventory processes by 15%.<br><br>" +
         
-                "<span class='bold'>Accenture | Custom Software Engineering Analyst</span><br><span style='color: orange;'>August 2021 – July 2023</span><br>" +
+                "<span class='bold'>Accenture | Software Engineer</span><br><span style='color: orange;'>August 2021 – July 2023</span><br>" +
                 "• Automated manual processes in CI/CD Azure pipelines, reducing manual efforts by 90%.<br>" +
                 "• Developed SQL scripts for code optimization, achieving 89% efficiency.<br>" +
                 "• Built data validation scripts and curated datasets in Google BigQuery, improving big data management by 54%.<br>" +
