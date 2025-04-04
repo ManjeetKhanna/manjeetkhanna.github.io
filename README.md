@@ -1,4 +1,4 @@
-# Interactive ChatBot Website: WhatsApp Theme
+# Interactive Personal Website: WhatsApp Theme
 
 ![image](https://github.com/user-attachments/assets/74ddefc6-30e6-48e8-bdd2-053e4b4f5482)
 
