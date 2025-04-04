@@ -1,6 +1,6 @@
 var audio = new Audio('assets/sentmessage.mp3');
 var contactString = "<div class='social'> <a target='_blank' href='tel:+12136439862'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>+1 (213)643-9862</label></div> </a> <a href='mailto:manjeetkhanna04@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/ManjeetKhanna'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a href='https://www.linkedin.com/in/manjeet-khanna-1853711a5' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
-var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Manjeet Resume.pdf</label></div><a href='assets/Manjeet Khanna&#39;s Resume.pdf' download='Manjeet_Khanna_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
+// var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Manjeet Resume.pdf</label></div><a href='assets/Manjeet Khanna&#39;s Resume.pdf' download='Manjeet_Khanna_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.2742814122!2d-118.41173209259346!3d34.07487027923257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c64d5b7f8e67%3A0x14cdca4fa4b65d7e!2sMonterey%20Park%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1698359294300!5m2!1sen!2sus' class='map'></iframe></div><label class='add'><address>Monterey Park,<br>Los Angeles,<br>United States of America</address>";
 
 var repliesfForHowAreYou = ["I'm fine.", "I'm good. And yourself?", "Not bad. How are you?", "I'm doing well, and you?", "Good, how about you?", "I'm great!", "Everything is fine when you are around.", "The best I can be. I hope you are at your best too.", "I'm still learning and eagerly waiting to grasp new things."];
@@ -90,9 +90,9 @@ function waitAndResponce(inputText) {
         case "info":
             sendTextMessage("<span class='sk'>Want to know more? Type a keyword below: <br>e.g<br><span class='bold'>'about'</span> - Learn more about me<br><span class='bold'>'skills'</span> - See my skills and expertise<br><span class='bold'>'experience'</span> - Explore my professional experience<br><span class='bold'>'certifications'</span> - View my certifications<br><span class='bold'>'projects'</span> - Check out my projects<br><span class='bold'>'resume'</span> - View my resume<br><span class='bold'>'address'</span> - Get my address details<br><span class='bold'>'contact'</span> - Find ways to contact me<br><span class='bold'>'clear'</span> - Clear the conversation</span>");
             break;            
-        case "resume":
-            sendTextMessage(resumeString);
-            break;
+        // case "resume":
+        //     sendTextMessage(resumeString);
+        //     break;
         case "skills":
             sendTextMessage("<span class='sk'>Hi there! Here's a quick look at my tech skills:<br><br>💻 Languages:<br><span class='bold'>Python, Java, C++, C, JavaScript, SQL<br></span><br><br>🗄️ Databases:<br><span class='bold'>PostgreSQL, MySQL, MongoDB, Firestore<br></span><br><br>☁️ Cloud & DevOps:<br><span class='bold'>GCP, AWS, Microsoft Azure, Firebase, Azure DevOps, Docker, Kubernetes, Jenkins, GitHub<br></span><br><br>🛠️ Frameworks & Tools:<br><span class='bold'>Node.js, Vue.js, React.js, VS Code, Jira, Git, Postman, Jupyter Notebook<br></span><br><br>📊 Data Visualization:<br><span class='bold'>Microsoft PowerBI, Tableau<br></span><br>");
             break;
