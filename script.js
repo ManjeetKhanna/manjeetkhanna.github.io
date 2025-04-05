@@ -88,7 +88,7 @@ function waitAndResponce(inputText) {
             }, 2000);
             break;
         case "info":
-            sendTextMessage("<span class='sk'>Want to know more? Type a keyword below: <br>e.g<br><span class='bold'>'about'</span> - Learn more about me<br><span class='bold'>'skills'</span> - See my skills and expertise<br><span class='bold'>'experience'</span> - Explore my professional experience<br><span class='bold'>'certifications'</span> - View my certifications<br><span class='bold'>'projects'</span> - Check out my projects<br><span class='bold'>'resume'</span> - View my resume<br><span class='bold'>'address'</span> - Get my address details<br><span class='bold'>'contact'</span> - Find ways to contact me<br><span class='bold'>'clear'</span> - Clear the conversation</span>");
+            sendTextMessage("<span class='sk'>Want to know more? Type a keyword below: <br>e.g<br><span class='bold'>'about'</span> - Learn more about me<br><span class='bold'>'skills'</span> - See my skills and expertise<br><span class='bold'>'experience'</span> - Explore my professional experience<br><span class='bold'>'certifications'</span> - View my certifications<br><span class='bold'>'projects'</span> - Check out my projects<br><span class='bold'>'address'</span> - Get my address details<br><span class='bold'>'contact'</span> - Find ways to contact me<br><span class='bold'>'clear'</span> - Clear the conversation</span>");
             break;            
         // case "resume":
         //     sendTextMessage(resumeString);
